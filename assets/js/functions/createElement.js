@@ -8,3 +8,7 @@ export function createP(){
     return P
 }
 
+export function createImage() {
+    const img = document.createElement('img');
+    return img;
+}
